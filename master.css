@@ -1,0 +1,14 @@
+button {
+    text-align: center; color: blue; font-size: xx-large; size: 30px; background-color: aqua;
+}
+
+* { text-align: center; width: auto; padding: 10px; background-color: antiquewhite;}
+
+h1 {
+    border: 2px solid red;
+}
+
+body {
+    border: 3px solid rgb(219, 19, 52
+    ); background-color: coral;
+}
