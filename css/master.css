@@ -1,0 +1,48 @@
+
+/* Universal selector*/
+
+* { text-align: center; 
+    width: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    border: 5px solid red;
+}
+
+body {
+    border: 5px solid rgb(219, 19, 52
+    );
+    background-color: coral;
+}
+
+/*class selector*/
+
+.number {
+    color: white; background-color: blueviolet; width: 70px;
+}
+.operation {
+    background-color: brown; width: 70px;   
+}
+
+
+
+/*ID selector*/
+#screenCalculator {
+    color: black; 
+    ;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
+/*Grouping selector*/
+
+#Result, #screenCalculator {
+    background-color: white
+}
+
+.backspace, .backspace, .function, .purcentage, .reset{
+    background-color: cadetblue;
+}
+

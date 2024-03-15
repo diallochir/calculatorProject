@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="css/master.css">
     <title>Standard Calculator</title>
 </head>
 
@@ -15,45 +15,45 @@
     </header>
     <main>
         <section>
-            <section>
-                <strong>Result: </strong><span>0</span>
+            <section  id="screenCalculator">
+                <strong>Result: </strong><span id="Result">0</span>
             </section>
-            <section>
-                <section>
-                    <button value="%">%</button>
-                    <button value="C/E">C/E</button>
-                    <button value="C">C</button>
-                    <button value="&larr;">&larr;</button>
+            <section class="buttons Calculator">
+                <section class="Calcul"> 
+                    <button class="purcentage" value="%">%</button>
+                    <button class="reset" value="C/E">C/E</button>
+                    <button class="reset" value="C">C</button>
+                    <button class="backspace" value="&larr;">&larr;</button>
                 </section>
-                <section>
-                    <button value="1/x"><span><span>1</span><span>/</span><span>x</span></span></button>
-                    <button value="x^2">x<span>2</span></button>
-                    <button value="√">√</button>
-                    <button value="/">÷</button>
+                <section class="keyboard">
+                    <button class="function" value="1/x"><span><span>1</span><span>/</span><span>x</span></span></button>
+                    <button class="function" value="x^2">x<span>2</span></button>
+                    <button class="function" value="√">√</button>
+                    <button class="operation" value="/">÷</button>
                 </section>
-                <section>
-                    <button value="7">7</button>
-                    <button value="8">8</button>
-                    <button value="9">9</button>
-                    <button value="*">×</button>
+                <section class="keyboard">
+                    <button class="number" value="7">7</button>
+                    <button class="number" value="8">8</button>
+                    <button class="number" value="9">9</button>
+                    <button class="operation" value="*">×</button>
                 </section>
-                <section>
-                    <button value="4">4</button>
-                    <button value="5">5</button>
-                    <button value="6">6</button>
-                    <button value="-">-</button>
+                <section class="keyboard">
+                    <button class="number" value="4">4</button>
+                    <button class="number" value="5">5</button>
+                    <button class="number" value="6">6</button>
+                    <button class="operation" value="-">-</button>
                 </section>
-                <section>
-                    <button value="1">1</button>
-                    <button value="2">2</button>
-                    <button value="3">3</button>
-                    <button value="+">+</button>
+                <section class="keyboard">
+                    <button class="number" value="1">1</button>
+                    <button class="number" value="2">2</button>
+                    <button class="number" value="3">3</button>
+                    <button class="operation" value="+">+</button>
                 </section>
-                <section>
-                    <button value="-/+">-/+</button>
-                    <button value="0">0</button>
-                    <button value=".">.</button>
-                    <button value="=">=</button>
+                <section class="buttons Calculator">
+                    <button class="operation" value="-/+">-/+</button>
+                    <button class="number" value="0">0</button>
+                    <button class="operation" value=".">.</button>
+                    <button class="operation" value="=">=</button>
                 </section>
             </section>
         </section>
